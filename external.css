@@ -1,0 +1,51 @@
+body {
+  background-color: deepskyblue;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.item1 {
+  width: 0;
+  height: 0;
+  transform: translate(225px);
+  border-left: 156px solid transparent;
+  border-right: 156px solid transparent;
+  border-bottom: 156px solid rgb(77, 202, 77);
+  margin-bottom: -8px;
+}
+
+.item2 {
+  width: 0;
+  height: 0;
+  border-left: 355px solid transparent;
+  border-right: 355px solid transparent;
+  border-bottom: 355px solid forestgreen;
+  z-index: -1;
+  margin-bottom: -8px;
+}
+
+.item3 {
+  width: 0;
+  height: 0;
+  transform: translate(-225px);
+  border-left: 267px solid transparent;
+  border-right: 267px solid transparent;
+  border-bottom: 267px solid rgb(77, 202, 77);
+  margin-bottom: -8px;
+}
+
+.sun {
+  height: 25px;
+  width: 25px;
+  background-color: yellow;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-400px, -600px);
+}
